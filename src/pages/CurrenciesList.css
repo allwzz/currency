@@ -1,0 +1,43 @@
+/* CurrenciesList.css */
+.currency-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .currency-table th, .currency-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .currency-table th {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .currency-table td {
+    background-color: #f9f9f9;
+  }
+  
+  .currency-table a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .currency-table a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Queries for Mobile Devices */
+  @media screen and (max-width: 768px) {
+    .currency-table th, .currency-table td {
+      padding: 8px;
+      font-size: 0.9rem;
+    }
+  
+    .currency-table a {
+      font-size: 0.9rem;
+    }
+  }
+  

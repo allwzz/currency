@@ -1,0 +1,60 @@
+/* CurrencyDetail.css */
+.currency-detail {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  .currency-detail h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .currency-detail h2 {
+    font-size: 1.5rem;
+    color: #3498db;
+  }
+  
+  .currency-detail img.country-flag {
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .currency-detail p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .currency-detail p strong {
+    color: #3498db;
+  }
+  
+  /* Media Queries for Mobile Devices */
+  @media screen and (max-width: 768px) {
+    .currency-detail {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .currency-detail h1 {
+      font-size: 1.8rem;
+    }
+  
+    .currency-detail h2 {
+      font-size: 1.3rem;
+    }
+  
+    .currency-detail p {
+      font-size: 1rem;
+    }
+  }
+  
